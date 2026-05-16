@@ -11,12 +11,12 @@
 import Adp from "./Adp"
 
 function App() {
-
+  const username="ADP and AKP"
 
   return (
   <>
     <Adp/>
-    <h1>Another para</h1>
+    <h1>Another para with {username}</h1>
     <p>Thiss</p>
   </>
    
