@@ -16,6 +16,10 @@ function App() {
     //console.log("Clicked!!!",Math.random())
     console.log("Counter is: ",counter)
     setCounter(counter+1)
+    // setcounter( (prevCounter)=>prevCounter+1 )
+    // setcounter( (prevCounter)=>prevCounter+1 )
+    // setcounter( (prevCounter)=>prevCounter+1 )
+    // setcounter( (prevCounter)=>prevCounter+1 )
     if(counter>=20)
     {
       setCounter(19);
